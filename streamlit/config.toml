@@ -1,0 +1,10 @@
+[browser]
+serverAddress = 'localhost'
+
+[global]
+dataFrameSerialization = "legacy"
+
+[theme]
+base="light"
+textColor="#4d4d4d"
+font="serif"

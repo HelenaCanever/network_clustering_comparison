@@ -327,7 +327,7 @@ fig = px.density_heatmap(db, x="Timeslot", y="DBSCAN_clusters",  text_auto=True,
 fig.update_xaxes(title_text="")
 fig.update_yaxes(title_text="Cluster")
 
-st.write(fig, use_container_width=True)
+st.plotly_chart(fig, use_container_width=True)
 
 ###Graph 5####################################################################################################
 st.subheader("Flow duration")
